@@ -118,7 +118,7 @@ int main() {
     }
 
     if (won) {
-        std::cout << "Congratulations! You won!" << std::endl;
+        std::cout << "Congratulations! You won and good luck for the future!" << std::endl;
     } else {
         std::cout << "Sorry, you lost. The word was: " << secretWord << std::endl;
         drawHangman(maxAttempts);
