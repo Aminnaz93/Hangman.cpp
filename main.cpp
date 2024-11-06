@@ -74,7 +74,7 @@ void displayWord(const std::string& secretWord, const std::vector<char>& guessed
 
 int main() {
     const int maxAttempts = 6;
-    std::string secretWord = "hangman";
+    std::string secretWord = "kristal";
     std::vector<char> guessedLetters;
     int attempts = 0; // Deklarera och initialisera variabeln attempts
 
